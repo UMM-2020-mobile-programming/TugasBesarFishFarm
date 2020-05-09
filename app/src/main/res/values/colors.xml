@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="lingkaran_kuliner">#4c8087</color>
+    <color name="lingkaran_belanja">#139599</color>
+    <color name="lingkaran_hotel">#ff9340</color>
+    <color name="lingkaran_spbu">#464343</color>
+    <color name="lingkaran_wisata">#4480b1</color>
+    <color name="lingkaran_transportasi">#8a638e</color>
+    <color name="lingkaran_kerajinan">#e1d612</color>
+</resources>

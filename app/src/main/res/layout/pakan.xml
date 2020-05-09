@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.mymaps.tugasbesar.pakan">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Formulir Permintaan Pakan"
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/input_nama2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mitra"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/input_nik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Pakan"
+        android:inputType="text"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/input_umur2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kuantitas Ikan (dalam Kg)"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/input_alamat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kuantitas Pakan Yang Diajukan(Kg)"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/input_institusi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Pengiriman(hh/bb/tttt)"
+        android:inputType="datetime"
+        android:textSize="16sp"
+        />
+    <Button
+        android:id="@+id/simpan_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit2"
+        android:text="Kirim"
+        android:textAllCaps="true"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

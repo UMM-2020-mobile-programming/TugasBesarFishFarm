@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients">
+
+
+
+    <Button
+        android:id="@+id/konsultasi"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="COnsult"
+        android:onClick="pilihan4"
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="325dp"
+        android:layout_height="405dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/kotak"
+        android:fadingEdge="horizontal|vertical"
+        android:foregroundGravity="fill_horizontal|center_vertical|clip_horizontal|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <Button
+        android:id="@+id/bibit"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="pilihan1"
+        android:text="Bibit"
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="608dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="btnNext"
+        android:text="NEXT"
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pakan"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="pilihan2"
+        android:text="PAKAN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/harian"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="HARIAN"
+        android:onClick="pilihan3"
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FISH FARM"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
